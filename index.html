@@ -2,70 +2,89 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alonso - Less</title>
-    <link rel="stylesheet" href="./build/style/main.css">
+    <title>Exercício Less</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./build/styles/main.css">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <img class="profile-avatar" src="./imagens/eu.png" width="150px"/>
-            <div class="profile-bio">
-                <h1 class="profile-bio-name">Alonso Pages</h1>
-                <h2 class="profile-bio-subtitle">Aluno</h2>
-                <p class="profile-bio-description">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente accusantium rerum quo quasi tempora saepe provident aperiam voluptatibus exercitationem nam nisi voluptas, quos architecto nobis tenetur, quas perspiciatis unde eveniet.
-                </p>
+    <header>
+        <div class="container">
+            <div class="branding">
+                <img src="https://via.placeholder.com/120x70" />
             </div>
-        </header>
-        <nav>
+            <nav>
+                <ul class="menu">
+                    <li>
+                        <a href="#">Início</a>
+                    </li>
+                    <li>
+                        <a href="#">Produtos</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <h2>Produtos</h2>
+            <ul class="products">
+                <li class="products-item">
+                    <img src="https://via.placeholder.com/180x180" />
+                    <h4>Nome do produto</h4>
+                    <p>
+                        Descrição do produto, cor, tamanho, textura, etc.
+                    </p>
+                    <a href="#" class="products-button">
+                        Ver detalhes
+                    </a>
+                </li>
+                <li class="products-item">
+                    <img src="https://via.placeholder.com/180x180" />
+                    <h4>Nome do produto</h4>
+                    <p>
+                        Descrição do produto, cor, tamanho, textura, etc.
+                    </p>
+                    <a href="#" class="products-button">
+                        Ver detalhes
+                    </a>
+                </li>
+                <li class="products-item">
+                    <img src="https://via.placeholder.com/180x180" />
+                    <h4>Nome do produto</h4>
+                    <p>
+                        Descrição do produto, cor, tamanho, textura, etc.
+                    </p>
+                    <a href="#" class="products-button">
+                        Ver detalhes
+                    </a>
+                </li>
+                <li class="products-item">
+                    <img src="https://via.placeholder.com/180x180" />
+                    <h4>Nome do produto</h4>
+                    <p>
+                        Descrição do produto, cor, tamanho, textura, etc.
+                    </p>
+                    <a href="#" class="products-button">
+                        Ver detalhes
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
             <ul class="social-links">
-                <li><a href="https://github.com/Alonsorj55021" target="_blank">
-                    <img src="./imagens/github.svg" alt="Logo github">
-                    </a>
-                 </li>
-
-                 <li><a href="https://www.instagram.com/alonso.rj/" target="_blank">
-                    <img src="./imagens/instagram.svg" alt="Logo instagram">
-                    </a>
-                 </li>
-
-                 <li><a href="https://www.linkedin.com/in/rafael-alonso-64312b74/" target="_blank">
-                    <img src="./imagens/linkedin.svg" alt="Logo Linkedin">
-                    </a>
-                 </li>
-
-                 <li><a href="rafaelpacheco.rj@gmail.com" target="_blank">
-                    <img src="./imagens/mail.svg" alt="E-mail">
-                    </a>
-                 </li>
-
+                <li><a href="https://www.instagram.com/1gor.alexandria/" target="_blank"><img src="./src/images/instagram.svg" alt="Logo do Instagram"></a></li>
+                <li><a href="https://www.linkedin.com/in/igoralexandria/" target="_blank"><img src="./src/images/linkedin.svg" alt="Logo do Linkedin"></a></li>
+                <li><a href="https://github.com/igoralexandria" target="_blank"><img src="./src/images/github.svg" alt="Logo do GitHub"></a></li>
+                <li><a href="#"><img src="./src/images/mail.svg" alt="Logo do E-mail"></a></li>
             </ul>
-        </nav>
-        <nav>
-            <ul class="project-list">
-                <li class="projects-list-item">
-                    <a href="https://projeto-calculadora-medias-steel-two.vercel.app/" target="_blank">
-                        Visite o Projeto "calculadora de médias"
-                    </a>
-                </li>
-
-                <li class="projects-list-item">
-                    <a href="https://site-gameshop-ashen-gamma.vercel.app/" target="_blank">
-                        Visite o Projeto "Game Shop"
-                    </a>
-                </li>
-
-                <li class="projects-list-item">
-                    <a href="https://jquery-galeria-fotos-umber-gamma.vercel.app/" target="_blank">
-                        Visite o Projeto "Galeria de fotos"
-                    </a>
-                </li>
-            </ul>
-        </nav>
-    </div>
+        </div>
+    </footer>
 </body>
 </html>
